@@ -10,3 +10,6 @@ const createFareMultiplier = function(int) {
 const fareDoubler = function(fare){
   return createFareMultiplier(2)(fare);
 }
+const fareTripler = function(fare){
+  return createFareMultiplier(3)(fare);
+}
