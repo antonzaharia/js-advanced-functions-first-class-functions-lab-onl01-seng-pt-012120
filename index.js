@@ -8,5 +8,5 @@ const createFareMultiplier = function(int) {
   }
 };
 const fareDoubler = function(fare){
-  createFareMultiplier(2)(fare)
+  createFareMultiplier(2)(fare);
 }
